@@ -1,0 +1,162 @@
+(q1)
+public class basic1
+{
+    public static void main(String args[])
+    {
+      int a=25;
+      int b=5;
+      System.out.printf("25x5=%d",a*b);
+    }
+}
+(q2)
+public class basic2
+{
+    public static void main(String args[])
+    {
+        int a=125;
+        int b=24;int k=a%b;
+        System.out.printf("\n125 + 24 =%d\n",a+b); 
+        System.out.printf("125 - 24 = %d\n",a-b);
+        System.out.printf("125 x 24 = %d\n",a*b);
+        System.out.printf("125 / 24 = %d\n",a/b);
+        System.out.printf("125 mod 24 = %d",k);
+    }
+}
+(q3)
+import java.util.*;
+public class basic3
+{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.println("\nEnter a number\n");
+        int num= in.nextInt();
+        for(int i=1;i<=10;i++)
+        {
+            System.out.printf(num+"x"+i+"=%d\n",(num*i));
+        }
+    }
+}
+(q4)
+import java.util.*;
+public class MyClass {
+    public static void main(String args[]) {
+    int a,b;
+    Scanner in= new Scanner(System.in);
+    a=in.nextInt();
+    b=in.nextInt();
+    System.out.printf("sum of two number is \t %d",a+b);
+    }
+}
+(q5)
+import java.util.*;
+public class div
+{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        int a= in.nextInt();
+        int b= in.nextInt();
+        System.out.printf("division of the number are %d",a/b);
+    }
+}
+(q6)
+
+public class basic3
+{
+    public static void main(String args[])
+    {
+        System.out.println("hello world!");
+    }
+}
+(q7)
+public class calculator
+{
+    public static void main(String args[])
+    {
+        int s=-5 + 8 * 6;
+        int a= (55+9) % 9;
+        int b=20 + -3*5 / 8;
+        int c= 5 + 15 / 3 * 2 - 8 % 3;
+        System.out.printf("ans of s=%d\n",s);
+        System.out.printf("ans of a=%d\n",a);
+        System.out.printf("ans of b=%d\n",b);
+        System.out.printf("ans of c=%d\n",c);
+    }
+}
+(q8)/*input five integer
+ * determine and print largest in the group
+ */
+import java.util.*;
+public class larg
+{
+    public static void main(String args[])
+    {
+        int a,b,c,d,e;
+        Scanner in =new Scanner(System.in);
+        System.out.println("\n Enter the five number:");
+        a=in.nextInt();
+        b=in.nextInt();
+        c=in.nextInt();
+        d=in.nextInt();
+        e=in.nextInt();
+        if((a>b)&&(a>c)&&(a>d)&&(a>e))
+        {
+            System.out.printf("\n The largest number%d\n",a);
+        }
+            else
+            System.out.printf("\n The  smallest number%d\n",a);
+        }
+    }
+(q9)
+public class s2
+{
+    public static void main(String args[])
+    {
+        String name="priyanka";
+        int num=15;
+        int a;
+        a=3;
+        a=10;
+        int b=19;
+        String title="world";
+        int c=a+b;
+        int d=4,z=5,ab=123;
+        System.out.println(name);
+        System.out.println(num);
+        System.out.println(a);
+        System.out.println(a+"\t"+b);
+        System.out.println("hello\t"+title);
+        System.out.println("result\t"+c);
+        System.out.println(d+"\t\t"+z+"\t"+ab);
+    }
+}
+(q10)/*To input two integer from user
+ * find the square of both number
+ * Add both the squared number
+ * subtract both the squared number
+ */
+import java.util.*;
+public class pow
+{
+    //main method is called
+    public static void main(String args[])
+    {
+        int a,b,sqa,sqb,sum,diff;//input parameter
+        //create scanner clas
+        Scanner in= new Scanner(System.in);
+        System.out.println("\nEnter the frist integer:");
+        a=in.nextInt();
+        System.out.println("\nEnter the second integer:");
+        b=in.nextInt();
+        sqa=(int)Math.pow(a,2);
+        sqb=(int)Math.pow(b,2);
+        sum=sqa+sqb;
+        diff=sqa-sqb;
+        System.out.printf("\nPRINT the square of the integer:%d\n %d\n",sqa,sqb);
+        System.out.printf("\n Print the sum and difference of the integer:%d\n %d\n",sum,diff);
+    }
+}
+
+
+        
