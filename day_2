@@ -1,0 +1,63 @@
+(q1)
+import java.util.*;
+public class q1
+{
+    public static void main(String args[])
+    {
+        int a,b;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the value of a");
+        a=in.nextInt();
+        System.out.println("Enter the value of b");
+        b=in.nextInt();
+        System.out.printf(" %d x %d = %d",a,b,(a*b));
+    }
+}
+(q2)
+import java.util.*;
+public class q2
+{
+    public static void main(String args[])
+    {
+        int a,b;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the value a");
+        a=in.nextInt();
+        System.out.println("Enter the value b");
+        b=in.nextInt();
+        System.out.printf(" %d  + %d = %d\n",a,b,(a+b));
+        System.out.printf(" %d  - %d = %d\n",a,b,(a-b));
+        System.out.printf(" %d  x %d = %d\n",a,b,(a*b));
+        System.out.printf(" %d  / %d = %d\n",a,b,(a/b));
+        System.out.printf(" %d  mod %d = %d\n",a,b,(a%b));
+    }
+}
+(q3)
+import java.util.*;
+public class q3
+{
+    public static void main(String args[])
+    {
+        int a,i=1;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the value of a ");
+        a=in.nextInt();
+        while(i<=10)
+        {
+            System.out.printf(" %d x %d = %d\n",a,i,(a*i));
+            i++;
+        }
+    }
+}
+(q4)
+public class q4
+{
+    public static void main(String args[])
+    {
+        double a,b,c;
+        b=25.5*3.5 - 3.5*3.5;
+        c=40.5 - 4.5;
+        a=(b/c);
+        System.out.printf("a = %.2f\n",a);
+    }
+}
