@@ -3,7 +3,7 @@ public class comparison
 {
     public static void main(String args[])
     {
-        Scanner in = new Scanner(System.in)
+        Scanner in = new Scanner(System.in);
         int num1;
         int num2;
         System.out.print("Enter the first integer:");
